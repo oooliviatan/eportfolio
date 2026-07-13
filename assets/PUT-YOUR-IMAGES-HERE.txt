@@ -1,0 +1,1 @@
+Place profile photo, poster, screenshots, PDFs and presentation files in this folder.
