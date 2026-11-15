@@ -1,0 +1,333 @@
+{
+  "overview": {
+    "organizationProfile": "Deloitte Consulting (SEA) Sdn. Bhd.\nTTDI, Wilayah Persekutuan Kuala Lumpur\n\nPracticum report title: AI GEOSPATIAL\nCourse: SQQXK4946 Industrial Training\nStudent: Tan Qian Han (299564) — B.Sc. (Hons.) Decision Science, UUM\n\nHistory. Deloitte is a global professional services firm, with roots going back to 1845, when William Welch Deloitte established an accounting practice in London. It grew into a network of member firms in more than 150 countries and territories. It provides audit and assurance, consulting, tax, and related professional services.\n\nVision. Deloitte’s future vision is to connect ideas, innovations, and industries to create prosperity for clients, society, and the planet, and to help build better futures.\n\nMission. Deloitte states its purpose as making an impact that matters for its clients, its people, and society.\n\nMalaysia and legal structure. Since KassimChan & Co. was founded in 1968, Deloitte has had a presence in Malaysia. As of October 2023, Deloitte Malaysia has over 1,800 professionals, including over 130 Partners and Directors, across eight offices. Services are provided by Deloitte Malaysia and its affiliates, which are separate and independent legal entities. \n\nMy role. Industrial Training Intern in Technology & Transformation (T&T), Artificial Intelligence & Data. I worked under the nominated supervisor and the project team on AI Geospatial, using Python, geospatial techniques, APIs, and AI-assisted processing to turn operational requirements into a structured workflow.",
+    "role": "Industrial Training Intern, Technology & Transformation (T&T), Artificial Intelligence & Data. Practicum title: AI GEOSPATIAL. Course: SQQXK4946 Industrial Training. Student: Tan Qian Han (299564), B.Sc. (Hons.) Decision Science, Universiti Utara Malaysia.",
+    "responsibilities": "• Support the AI GEOSPATIAL practicum project: stage-gated SRF pipeline from structured JSON through validation, shortest-path analysis, costing, and HLD.\n• Assist with multi-agent workflow documentation, testing, and geospatial/data validation tasks as assigned by industry supervisor.\n• Complete firm onboarding, compliance e-learning, and progress reporting for UUM industrial training.\n• Maintain daily activity logs and contribute material to the practicum report (introduction, methodology, analysis, conclusion).",
+    "achievements": "• Completed Deloitte onboarding, office orientation, and mandatory risk & brand protection training.\n• Met industry and academic supervisors; aligned practicum scope with AI Geospatial / SRF automation objectives.\n• Progress toward hybrid orchestrator + specialist agent architecture described in the practicum proposal (validation, OSRM routing, costing, HLD phases).\n• [Update as internship continues with deliverables, demos, and report chapters.]",
+    "skillsApplied": "Python; workflow orchestration; JSON/schema handling; geospatial concepts (geocoding, OSRM routing); AWS/cloud tooling (as provisioned on project); AI/agent workflow design; Microsoft Excel; technical documentation; communication with supervisors.",
+    "skillsGained": "Enterprise consulting workplace practices; telecom last-mile SRF domain exposure; combining deterministic pipelines with AI agents; professional ethics and confidentiality; practicum report writing aligned to UUM structure."
+  },
+  "dailyReports": [
+    {
+      "id": "day-2026-08-03",
+      "date": "2026-08-03",
+      "entry": "Attended the onboarding session and was introduced to the company's background, organisational structure, and workplace environment. Learned about the company's general working procedures, internship expectations, and the responsibilities assigned to interns. Familiarised myself with the basic guidelines and requirements to ensure a smooth transition into the working environment.",
+      "image": "assets/intern-2026-08-03.jpg",
+      "imageAlt": "Deloitte bag and laptop on the first day of industrial training"
+    },
+    {
+      "id": "day-2026-08-04",
+      "date": "2026-08-04",
+      "entry": "Continued the onboarding process and gained a better understanding of the department's working environment and daily operations. Got to know the team members and learned about the general responsibilities of different roles within the department. Also familiarised myself with the communication channels and working arrangements used by the team."
+    },
+    {
+      "id": "day-2026-08-05",
+      "date": "2026-08-05",
+      "entry": "Was introduced to the AI & Data Department and received an overview of the project assigned during the internship. Learned about the general objectives of the project and how technology and data analytics could support business operations. Discussed the expected project outcomes and gained an initial understanding of the tasks involved."
+    },
+    {
+      "id": "day-2026-08-06",
+      "date": "2026-08-06",
+      "entry": "Learned about the telecommunications technical service request process and how customer location information is used to assess network feasibility. Gained an understanding of the relationship between customer requirements and existing telecommunications infrastructure. Reviewed how geographical information plays an important role in determining the feasibility of providing network connectivity."
+    },
+    {
+      "id": "day-2026-08-07",
+      "date": "2026-08-07",
+      "entry": "Reviewed the overall project objectives and discussed the main challenges associated with the existing manual workflow. Identified several important processes involved in handling service requests, including location validation, infrastructure identification, route analysis, costing, and documentation. Developed a clearer understanding of the project scope and its expected automation outcomes."
+    },
+    {
+      "id": "day-2026-08-10",
+      "date": "2026-08-10",
+      "entry": "Studied the existing manual workflow to understand how technical service requests were processed from the initial customer information to the final documentation. Examined the different stages involved, particularly geographical validation, infrastructure identification, route analysis, and costing. Identified opportunities where automation could help reduce repetitive manual tasks and improve processing efficiency."
+    },
+    {
+      "id": "day-2026-08-11",
+      "date": "2026-08-11",
+      "entry": "Explored the potential use of Python programming to automate repetitive tasks within the technical service request workflow. Reviewed how Python libraries and programming logic could be applied to process geographical information and perform calculations. Also considered how different processes could be connected to form a more efficient automated workflow."
+    },
+    {
+      "id": "day-2026-08-12",
+      "date": "2026-08-12",
+      "entry": "Reviewed the geographical information required for the project, including customer coordinates and existing network infrastructure data. Learned about the importance of accurate latitude and longitude values when identifying nearby infrastructure locations. Organised the initial understanding of the data fields required for subsequent geographical processing."
+    },
+    {
+      "id": "day-2026-08-13",
+      "date": "2026-08-13",
+      "entry": "Researched different geocoding and mapping APIs to understand how customer addresses could be converted into geographical coordinates. Explored the functions of geocoding services and their potential applications in validating customer locations. Compared the available approaches to determine which tools would be suitable for the project's geographical processing requirements."
+    },
+    {
+      "id": "day-2026-08-14",
+      "date": "2026-08-14",
+      "entry": "Consolidated the information gathered during the initial research and reviewed the proposed system workflow. Identified the main technical components required for development, including geocoding, distance calculation, route analysis, and automated documentation. Prepared an initial development approach to guide the upcoming implementation stages."
+    },
+    {
+      "id": "day-2026-08-17",
+      "date": "2026-08-17",
+      "entry": "Started exploring the Google Geocoding API and studied how forward and reverse geocoding could support the location validation process. Learned how customer addresses could be converted into geographical coordinates and how coordinates could be used to retrieve location information. Reviewed the potential use of the API in improving the accuracy of customer location verification."
+    },
+    {
+      "id": "day-2026-08-18",
+      "date": "2026-08-18",
+      "entry": "Tested geographical coordinate processing using sample addresses and location data to understand how the geocoding process worked. Examined the returned latitude and longitude values and compared them with the expected geographical locations. Reviewed the results to identify possible differences between the provided address information and the coordinates returned by the API."
+    },
+    {
+      "id": "day-2026-08-19",
+      "date": "2026-08-19",
+      "entry": "Studied how to verify whether customer coordinates corresponded to the provided address and the intended geographical coverage area. Explored different validation conditions to identify inaccurate or unsuitable location information. Gained a better understanding of how location validation could prevent incorrect information from being passed to subsequent processing stages."
+    },
+    {
+      "id": "day-2026-08-20",
+      "date": "2026-08-20",
+      "entry": "Explored geographical distance calculation methods and learned how the Haversine formula could be used to calculate distances between two coordinate points. Studied how the formula could support the identification of nearby telecommunications infrastructure based on customer locations. Tested the calculation approach using sample coordinates to understand how the distance results could be applied in the project."
+    },
+    {
+      "id": "day-2026-08-21",
+      "date": "2026-08-21",
+      "entry": "Reviewed the initial geospatial processing approach and evaluated the results obtained from the earlier API and distance calculation tests. Organised the technical information and identified areas that required further investigation before proceeding with development. Summarised the progress made during the week and prepared for the implementation of the infrastructure identification logic."
+    },
+    {
+      "id": "day-2026-08-24",
+      "date": "2026-08-24",
+      "entry": "Began developing the Python logic for geographical distance calculation and the identification of nearby network infrastructure using sample data. Worked on processing latitude and longitude values to calculate distances between customer locations and infrastructure points. Reviewed the initial results to understand how the system could identify potential infrastructure candidates."
+    },
+    {
+      "id": "day-2026-08-26",
+      "date": "2026-08-26",
+      "entry": "Continued developing the infrastructure search logic and explored how infrastructure status and availability could be incorporated into the selection process. Reviewed the available data fields to understand how unsuitable or inactive infrastructure points could be filtered out. Refined the initial selection approach to ensure that the system considered both geographical distance and infrastructure suitability."
+    },
+    {
+      "id": "day-2026-08-27",
+      "date": "2026-08-27",
+      "entry": "Tested the distance calculation results using different sample locations and examined how different search radius settings affected infrastructure selection. Compared the identified infrastructure points to understand how the search range influenced the results. Reviewed the testing outcomes and considered adjustments to improve the accuracy of the infrastructure identification process."
+    },
+    {
+      "id": "day-2026-08-28",
+      "date": "2026-08-28",
+      "entry": "Reviewed the initial geospatial processing results and evaluated the performance of the infrastructure identification logic. Identified several issues related to geographical accuracy and the selection of nearby infrastructure points. Documented the findings and considered possible improvements for the next development stage."
+    },
+    {
+      "id": "day-2026-09-01",
+      "date": "2026-09-01",
+      "entry": "Continued developing the Python-based geospatial processing workflow and refined the criteria used to identify suitable network infrastructure. Reviewed how geographical distance, infrastructure status, and availability could influence the selection results. Worked on improving the processing logic to ensure that the identified infrastructure points were relevant to the customer location."
+    },
+    {
+      "id": "day-2026-09-02",
+      "date": "2026-09-02",
+      "entry": "Explored the Open Source Routing Machine (OSRM) and studied how road-network routing could be used to calculate practical routes between selected geographical locations. Learned how OSRM processes coordinate information and returns route details based on available road networks. Reviewed its potential application in determining more realistic routes compared to straight-line distance calculations."
+    },
+    {
+      "id": "day-2026-09-03",
+      "date": "2026-09-03",
+      "entry": "Tested OSRM routing requests using sample geographical coordinates to understand how the routing API operates. Examined the route distances, coordinates, and other geographical information returned by the API. Evaluated the results to determine whether OSRM could support the project's shortest-path analysis requirements."
+    },
+    {
+      "id": "day-2026-09-04",
+      "date": "2026-09-04",
+      "entry": "Compared straight-line geographical distances with road-network distances to understand their different applications in the project. Reviewed how the Haversine formula calculates direct distances while OSRM considers available road networks when generating routes. Identified the importance of using appropriate distance calculation methods to improve the accuracy of route analysis.",
+      "image": "assets/intern-2026-09-04.jpg",
+      "imageAlt": "Standing beside a whiteboard of workflow notes during the internship"
+    },
+    {
+      "id": "day-2026-09-07",
+      "date": "2026-09-07",
+      "entry": "Started integrating geographical distance calculations and road-network routing into the Python development workflow. Worked on connecting the coordinate processing logic with OSRM routing requests to generate route information between selected locations. Reviewed the returned data structure and explored how the results could be used in subsequent processing stages."
+    },
+    {
+      "id": "day-2026-09-08",
+      "date": "2026-09-08",
+      "entry": "Tested the routing process between the customer location and the selected underground chamber using walking directions. Examined how the generated route followed the available road network and reviewed the distance returned by OSRM. Identified areas where the generated route required further checking to ensure that it was geographically appropriate."
+    },
+    {
+      "id": "day-2026-09-09",
+      "date": "2026-09-09",
+      "entry": "Worked on connecting the selected underground chamber to the appropriate network infrastructure element through road-network routing. Reviewed the coordinate information of the selected locations and tested how the routing process handled different starting and ending points. Examined the generated route information to ensure that the required network connection could be represented in the workflow."
+    },
+    {
+      "id": "day-2026-09-10",
+      "date": "2026-09-10",
+      "entry": "Reviewed the route visualisation results and investigated issues involving route alignment and geographical coordinates. Compared the generated routes with the surrounding road network to identify cases where the routing output did not match the expected geographical path. Considered possible improvements to make the route representation more accurate and consistent."
+    },
+    {
+      "id": "day-2026-09-11",
+      "date": "2026-09-11",
+      "entry": "Organised the geospatial processing outputs and reviewed the consistency of the route information generated by the Python implementation. Examined the distance values and coordinate sequences returned by the routing process. Consolidated the testing findings and identified areas requiring further refinement before integrating the routing component with other project modules."
+    },
+    {
+      "id": "day-2026-09-14",
+      "date": "2026-09-14",
+      "entry": "Began structuring the project into specialised agents to separate the main processing responsibilities. Reviewed how geographical validation, shortest-path processing, costing, and HLD generation could be handled by individual agents. Explored how this modular approach could make the overall automation workflow easier to manage and maintain."
+    },
+    {
+      "id": "day-2026-09-15",
+      "date": "2026-09-15",
+      "entry": "Started working on the Validation Agent and explored how geographical validation results could be processed and returned in a structured JSON format. Reviewed the different validation conditions required to assess customer location information. Worked on organising the expected input and output fields to support communication between the agent and the Python workflow."
+    },
+    {
+      "id": "day-2026-09-17",
+      "date": "2026-09-17",
+      "entry": "Continued developing the Validation Agent by incorporating geographical checks such as address alignment and location coverage. Explored how the system could identify inaccurate coordinates and determine whether a location was suitable for further processing. Refined the validation conditions to improve the consistency of the results returned by the agent."
+    },
+    {
+      "id": "day-2026-09-18",
+      "date": "2026-09-18",
+      "entry": "Tested the Validation Agent using different sample location inputs to evaluate its responses under various geographical conditions. Reviewed the returned validation results and checked whether the agent could distinguish between valid and invalid location information. Documented the testing outcomes and identified cases that required additional validation logic.",
+      "image": "assets/intern-2026-09-18.jpg",
+      "imageAlt": "Deloitte session, with the stage screen showing 04. Business unit updates"
+    },
+    {
+      "id": "day-2026-09-21",
+      "date": "2026-09-21",
+      "entry": "Started working on the Shortest Path Agent and explored how Python-generated route information could be processed into structured outputs. Reviewed the relationship between the selected infrastructure points and the generated road-network routes. Worked on defining the information required by the agent to support the shortest-path processing stage."
+    },
+    {
+      "id": "day-2026-09-22",
+      "date": "2026-09-22",
+      "entry": "Integrated road-network routing results into the shortest-path processing workflow and reviewed the route distances returned by OSRM. Examined how the route information could be transferred and interpreted by the agent. Tested the processing logic to ensure that the generated route details were organised correctly for subsequent use."
+    },
+    {
+      "id": "day-2026-09-23",
+      "date": "2026-09-23",
+      "entry": "Worked on improving the route output structure and ensuring that two separate route segments could be identified and processed independently. Reviewed how the system should organise the coordinates and distance information for each route. Refined the output structure to support different service requirements and the generation of corresponding technical documentation."
+    },
+    {
+      "id": "day-2026-09-24",
+      "date": "2026-09-24",
+      "entry": "Tested the Shortest Path Agent using different sample scenarios to evaluate its ability to process route and connectivity information. Reviewed the generated outputs and examined whether the selected routes corresponded to the expected infrastructure connections. Identified inconsistencies during testing and considered improvements to the route processing logic."
+    },
+    {
+      "id": "day-2026-09-25",
+      "date": "2026-09-25",
+      "entry": "Reviewed the development progress of the Validation Agent and Shortest Path Agent. Evaluated the testing results and identified areas that required further improvements, particularly in geographical validation and route consistency. Organised the findings to guide the next stage of agent development and integration."
+    },
+    {
+      "id": "day-2026-09-28",
+      "date": "2026-09-28",
+      "entry": "Reviewed the requirement to store service request information and agent validation durations in Amazon DynamoDB. Studied how the details of a service request could be organised into a structured JSON record for storage. Examined how the validation duration of the four agent processing stages could be recorded to support performance tracking and future reference."
+    },
+    {
+      "id": "day-2026-09-29",
+      "date": "2026-09-29",
+      "entry": "Explored how structured JSON request data could be prepared for storage and retrieved during the automated workflow. Reviewed the relationship between the service request information and the corresponding validation results. Worked on understanding how the data structure could support consistent information storage and retrieval through DynamoDB."
+    },
+    {
+      "id": "day-2026-09-30",
+      "date": "2026-09-30",
+      "entry": "Continued refining the data structure used to transfer information between the Python workflow and the specialised agents. Reviewed the required input and output fields to ensure that the information remained consistent throughout the processing stages. Consolidated the development progress and prepared for the implementation of the costing and document generation components."
+    },
+    {
+      "id": "day-2026-10-01",
+      "date": "2026-10-01",
+      "entry": "Started developing the Costing Agent by reviewing the existing costing template and identifying the information required for cost calculation. Studied the relationship between route distances, service requirements, and the corresponding costing items. Organised the required input fields to establish a structured approach for generating costing results automatically."
+    },
+    {
+      "id": "day-2026-10-02",
+      "date": "2026-10-02",
+      "entry": "Studied how route distances and other project information could be mapped to the corresponding costing items. Reviewed the costing template to understand the different fields and calculation requirements. Explored how the information generated by the geospatial processing component could be used as input for the costing process."
+    },
+    {
+      "id": "day-2026-10-05",
+      "date": "2026-10-05",
+      "entry": "Worked on preparing the costing input data using the route distances generated by the geospatial processing component. Reviewed how the route information should be organised before being passed to the Costing Agent. Examined the relationship between the generated distance values and the relevant items in the costing template."
+    },
+    {
+      "id": "day-2026-10-06",
+      "date": "2026-10-06",
+      "entry": "Developed the logic for transferring costing results into the Excel template using the relevant column headers. Worked on matching the structured agent responses with the corresponding fields in the workbook. Reviewed the data mapping process to ensure that the generated costing information could be inserted into the correct locations."
+    },
+    {
+      "id": "day-2026-10-07",
+      "date": "2026-10-07",
+      "entry": "Tested the Costing Agent and reviewed whether the calculated amounts were correctly reflected in the generated Excel workbook. Compared the agent's output with the expected template structure to identify possible mapping or calculation errors. Documented the testing results and identified areas requiring further adjustments."
+    },
+    {
+      "id": "day-2026-10-08",
+      "date": "2026-10-08",
+      "entry": "Investigated inconsistencies found in the costing outputs and refined the data mapping between the agent response and the Excel template. Reviewed the input values and calculation process to identify possible causes of inaccurate results. Made adjustments to improve the consistency of the generated costing information."
+    },
+    {
+      "id": "day-2026-10-09",
+      "date": "2026-10-09",
+      "entry": "Reviewed the overall costing workflow and verified the consistency of the route distance values used in the calculations. Examined whether the information transferred from the geospatial processing component was correctly reflected in the costing results. Consolidated the testing findings and evaluated the improvements made to the Costing Agent."
+    },
+    {
+      "id": "day-2026-10-12",
+      "date": "2026-10-12",
+      "entry": "Started working on the High-Level Design (HLD) Agent and reviewed the information required to populate the PowerPoint template. Studied the existing HLD document structure to understand how technical service request information was presented. Identified the key fields and sections that needed to be generated automatically based on the project data."
+    },
+    {
+      "id": "day-2026-10-13",
+      "date": "2026-10-13",
+      "entry": "Prepared the structured information mapping required for generating HLD documents from the agent's JSON response. Reviewed the relationship between the generated technical information and the corresponding sections in the PowerPoint template. Organised the required data fields to support accurate and consistent document generation."
+    },
+    {
+      "id": "day-2026-10-14",
+      "date": "2026-10-14",
+      "entry": "Worked on automating the transfer of project information into the appropriate fields in the HLD PowerPoint template. Explored how structured data could be used to populate the presentation without requiring manual entry for every section. Reviewed the placement of information to ensure that the generated slides followed the expected document structure."
+    },
+    {
+      "id": "day-2026-10-15",
+      "date": "2026-10-15",
+      "entry": "Tested the HLD generation process and reviewed the accuracy of the information displayed in the generated presentation. Examined whether the project details and route information were inserted into the correct sections of the PowerPoint template. Identified formatting and data placement issues that required further improvement."
+    },
+    {
+      "id": "day-2026-10-16",
+      "date": "2026-10-16",
+      "entry": "Reviewed the outputs generated by the Costing Agent and HLD Agent to evaluate their overall consistency. Examined the accuracy of the information transferred into the Excel and PowerPoint templates. Identified areas requiring further refinement, particularly in data mapping, document formatting, and output consistency."
+    },
+    {
+      "id": "day-2026-10-19",
+      "date": "2026-10-19",
+      "entry": "Began integrating the specialised agents into a central Python orchestration workflow to coordinate the overall processing sequence. Reviewed how the Validation, Shortest Path, Costing, and HLD Agents should communicate with one another. Worked on organising the execution flow to ensure that information could be transferred between the different processing stages."
+    },
+    {
+      "id": "day-2026-10-20",
+      "date": "2026-10-20",
+      "entry": "Worked on implementing conditional execution within the Python orchestration workflow. Explored how downstream processes should only continue when the required validation and routing conditions were successfully satisfied. Refined the processing sequence to reduce unnecessary execution and improve the overall workflow structure."
+    },
+    {
+      "id": "day-2026-10-21",
+      "date": "2026-10-21",
+      "entry": "Tested the integrated workflow and reviewed how information was passed between the Python orchestrator and the specialised agents. Examined whether each agent received the required input data and returned the expected output format. Identified integration issues and evaluated the consistency of information throughout the automated process."
+    },
+    {
+      "id": "day-2026-10-22",
+      "date": "2026-10-22",
+      "entry": "Investigated integration issues within the automated workflow and improved the handling of unsuccessful responses and missing information. Reviewed different scenarios where an agent might return incomplete or unexpected results. Worked on improving the workflow's response to these situations to prevent errors from affecting subsequent processing stages."
+    },
+    {
+      "id": "day-2026-10-23",
+      "date": "2026-10-23",
+      "entry": "Reviewed the overall automated workflow and evaluated the consistency of the generated JSON, Excel, and PowerPoint outputs. Tested the information transferred between the different agents and examined whether the final documents reflected the expected project details. Consolidated the testing findings and identified remaining areas for improvement."
+    },
+    {
+      "id": "day-2026-10-26",
+      "date": "2026-10-26",
+      "entry": "Explored the AWS environment and reviewed how the locally developed Python workflow could be prepared for cloud-based integration. Studied the general architecture and requirements involved in connecting the application with cloud services. Gained a better understanding of how the existing local implementation could be adapted for deployment within the AWS environment."
+    },
+    {
+      "id": "day-2026-10-27",
+      "date": "2026-10-27",
+      "entry": "Studied Amazon Bedrock and its role in supporting the specialised AI agents within the project architecture. Explored how foundation models could be used to process information and support different stages of the automated workflow. Reviewed how the agent-based approach could be incorporated into the broader AWS solution."
+    },
+    {
+      "id": "day-2026-10-28",
+      "date": "2026-10-28",
+      "entry": "Reviewed the API integration approach and explored the requirements for connecting the application workflow with AWS services. Studied how API communication could support the transfer of service request information between different components. Examined the integration requirements and identified the dependencies that needed to be considered before proceeding."
+    },
+    {
+      "id": "day-2026-10-29",
+      "date": "2026-10-29",
+      "entry": "Continued testing the project workflow and reviewed the challenges involved in integrating the local development environment with the AWS environment. Examined the existing implementation and considered the adjustments required to support cloud-based execution. Discussed the integration requirements and reviewed the progress of the cloud implementation."
+    },
+    {
+      "id": "day-2026-10-30",
+      "date": "2026-10-30",
+      "entry": "Consolidated the implementation progress and reviewed the current status of the geospatial processing, specialised agents, and automated document generation components. Evaluated the overall workflow to identify completed development areas and outstanding technical challenges. Organised the development findings and prepared a summary of the project progress for the final review."
+    },
+    {
+      "id": "day-2026-11-02",
+      "date": "2026-11-02",
+      "entry": "Conducted an overall review of the project implementation and evaluated the progress of the automated service request workflow. Organised the development outputs, including the Python implementation, geospatial processing results, specialised agent components, and generated documents. Documented the work completed throughout the internship period and identified the remaining areas that could be further improved."
+    }
+  ]
+}

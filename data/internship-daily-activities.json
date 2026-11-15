@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "title": "Internship Daily Report",
+    "rangeStart": "2026-08-03",
+    "rangeEnd": "2026-11-02",
+    "workingDayCount": 63,
+    "excludedPublicHolidays": [
+      {
+        "date": "2026-08-25",
+        "name": "Maulidur Rasul"
+      },
+      {
+        "date": "2026-08-31",
+        "name": "National Day"
+      },
+      {
+        "date": "2026-09-16",
+        "name": "Malaysia Day"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "date": "2026-08-03",
+      "dayOfWeek": "Monday",
+      "activities": "Attended the onboarding session and was introduced to the company's background, organisational structure, and workplace environment. Learned about the company's general working procedures, internship expectations, and the responsibilities assigned to interns. Familiarised myself with the basic guidelines and requirements to ensure a smooth transition into the working environment."
+    },
+    {
+      "date": "2026-08-04",
+      "dayOfWeek": "Tuesday",
+      "activities": "Continued the onboarding process and gained a better understanding of the department's working environment and daily operations. Got to know the team members and learned about the general responsibilities of different roles within the department. Also familiarised myself with the communication channels and working arrangements used by the team."
+    },
+    {
+      "date": "2026-08-05",
+      "dayOfWeek": "Wednesday",
+      "activities": "Was introduced to the AI & Data Department and received an overview of the project assigned during the internship. Learned about the general objectives of the project and how technology and data analytics could support business operations. Discussed the expected project outcomes and gained an initial understanding of the tasks involved."
+    },
+    {
+      "date": "2026-08-06",
+      "dayOfWeek": "Thursday",
+      "activities": "Learned about the telecommunications technical service request process and how customer location information is used to assess network feasibility. Gained an understanding of the relationship between customer requirements and existing telecommunications infrastructure. Reviewed how geographical information plays an important role in determining the feasibility of providing network connectivity."
+    },
+    {
+      "date": "2026-08-07",
+      "dayOfWeek": "Friday",
+      "activities": "Reviewed the overall project objectives and discussed the main challenges associated with the existing manual workflow. Identified several important processes involved in handling service requests, including location validation, infrastructure identification, route analysis, costing, and documentation. Developed a clearer understanding of the project scope and its expected automation outcomes."
+    },
+    {
+      "date": "2026-08-10",
+      "dayOfWeek": "Monday",
+      "activities": "Studied the existing manual workflow to understand how technical service requests were processed from the initial customer information to the final documentation. Examined the different stages involved, particularly geographical validation, infrastructure identification, route analysis, and costing. Identified opportunities where automation could help reduce repetitive manual tasks and improve processing efficiency."
+    },
+    {
+      "date": "2026-08-11",
+      "dayOfWeek": "Tuesday",
+      "activities": "Explored the potential use of Python programming to automate repetitive tasks within the technical service request workflow. Reviewed how Python libraries and programming logic could be applied to process geographical information and perform calculations. Also considered how different processes could be connected to form a more efficient automated workflow."
+    },
+    {
+      "date": "2026-08-12",
+      "dayOfWeek": "Wednesday",
+      "activities": "Reviewed the geographical information required for the project, including customer coordinates and existing network infrastructure data. Learned about the importance of accurate latitude and longitude values when identifying nearby infrastructure locations. Organised the initial understanding of the data fields required for subsequent geographical processing."
+    },
+    {
+      "date": "2026-08-13",
+      "dayOfWeek": "Thursday",
+      "activities": "Researched different geocoding and mapping APIs to understand how customer addresses could be converted into geographical coordinates. Explored the functions of geocoding services and their potential applications in validating customer locations. Compared the available approaches to determine which tools would be suitable for the project's geographical processing requirements."
+    },
+    {
+      "date": "2026-08-14",
+      "dayOfWeek": "Friday",
+      "activities": "Consolidated the information gathered during the initial research and reviewed the proposed system workflow. Identified the main technical components required for development, including geocoding, distance calculation, route analysis, and automated documentation. Prepared an initial development approach to guide the upcoming implementation stages."
+    },
+    {
+      "date": "2026-08-17",
+      "dayOfWeek": "Monday",
+      "activities": "Started exploring the Google Geocoding API and studied how forward and reverse geocoding could support the location validation process. Learned how customer addresses could be converted into geographical coordinates and how coordinates could be used to retrieve location information. Reviewed the potential use of the API in improving the accuracy of customer location verification."
+    },
+    {
+      "date": "2026-08-18",
+      "dayOfWeek": "Tuesday",
+      "activities": "Tested geographical coordinate processing using sample addresses and location data to understand how the geocoding process worked. Examined the returned latitude and longitude values and compared them with the expected geographical locations. Reviewed the results to identify possible differences between the provided address information and the coordinates returned by the API."
+    },
+    {
+      "date": "2026-08-19",
+      "dayOfWeek": "Wednesday",
+      "activities": "Studied how to verify whether customer coordinates corresponded to the provided address and the intended geographical coverage area. Explored different validation conditions to identify inaccurate or unsuitable location information. Gained a better understanding of how location validation could prevent incorrect information from being passed to subsequent processing stages."
+    },
+    {
+      "date": "2026-08-20",
+      "dayOfWeek": "Thursday",
+      "activities": "Explored geographical distance calculation methods and learned how the Haversine formula could be used to calculate distances between two coordinate points. Studied how the formula could support the identification of nearby telecommunications infrastructure based on customer locations. Tested the calculation approach using sample coordinates to understand how the distance results could be applied in the project."
+    },
+    {
+      "date": "2026-08-21",
+      "dayOfWeek": "Friday",
+      "activities": "Reviewed the initial geospatial processing approach and evaluated the results obtained from the earlier API and distance calculation tests. Organised the technical information and identified areas that required further investigation before proceeding with development. Summarised the progress made during the week and prepared for the implementation of the infrastructure identification logic."
+    },
+    {
+      "date": "2026-08-24",
+      "dayOfWeek": "Monday",
+      "activities": "Began developing the Python logic for geographical distance calculation and the identification of nearby network infrastructure using sample data. Worked on processing latitude and longitude values to calculate distances between customer locations and infrastructure points. Reviewed the initial results to understand how the system could identify potential infrastructure candidates."
+    },
+    {
+      "date": "2026-08-26",
+      "dayOfWeek": "Wednesday",
+      "activities": "Continued developing the infrastructure search logic and explored how infrastructure status and availability could be incorporated into the selection process. Reviewed the available data fields to understand how unsuitable or inactive infrastructure points could be filtered out. Refined the initial selection approach to ensure that the system considered both geographical distance and infrastructure suitability."
+    },
+    {
+      "date": "2026-08-27",
+      "dayOfWeek": "Thursday",
+      "activities": "Tested the distance calculation results using different sample locations and examined how different search radius settings affected infrastructure selection. Compared the identified infrastructure points to understand how the search range influenced the results. Reviewed the testing outcomes and considered adjustments to improve the accuracy of the infrastructure identification process."
+    },
+    {
+      "date": "2026-08-28",
+      "dayOfWeek": "Friday",
+      "activities": "Reviewed the initial geospatial processing results and evaluated the performance of the infrastructure identification logic. Identified several issues related to geographical accuracy and the selection of nearby infrastructure points. Documented the findings and considered possible improvements for the next development stage."
+    },
+    {
+      "date": "2026-09-01",
+      "dayOfWeek": "Tuesday",
+      "activities": "Continued developing the Python-based geospatial processing workflow and refined the criteria used to identify suitable network infrastructure. Reviewed how geographical distance, infrastructure status, and availability could influence the selection results. Worked on improving the processing logic to ensure that the identified infrastructure points were relevant to the customer location."
+    },
+    {
+      "date": "2026-09-02",
+      "dayOfWeek": "Wednesday",
+      "activities": "Explored the Open Source Routing Machine (OSRM) and studied how road-network routing could be used to calculate practical routes between selected geographical locations. Learned how OSRM processes coordinate information and returns route details based on available road networks. Reviewed its potential application in determining more realistic routes compared to straight-line distance calculations."
+    },
+    {
+      "date": "2026-09-03",
+      "dayOfWeek": "Thursday",
+      "activities": "Tested OSRM routing requests using sample geographical coordinates to understand how the routing API operates. Examined the route distances, coordinates, and other geographical information returned by the API. Evaluated the results to determine whether OSRM could support the project's shortest-path analysis requirements."
+    },
+    {
+      "date": "2026-09-04",
+      "dayOfWeek": "Friday",
+      "activities": "Compared straight-line geographical distances with road-network distances to understand their different applications in the project. Reviewed how the Haversine formula calculates direct distances while OSRM considers available road networks when generating routes. Identified the importance of using appropriate distance calculation methods to improve the accuracy of route analysis."
+    },
+    {
+      "date": "2026-09-07",
+      "dayOfWeek": "Monday",
+      "activities": "Started integrating geographical distance calculations and road-network routing into the Python development workflow. Worked on connecting the coordinate processing logic with OSRM routing requests to generate route information between selected locations. Reviewed the returned data structure and explored how the results could be used in subsequent processing stages."
+    },
+    {
+      "date": "2026-09-08",
+      "dayOfWeek": "Tuesday",
+      "activities": "Tested the routing process between the customer location and the selected underground chamber using walking directions. Examined how the generated route followed the available road network and reviewed the distance returned by OSRM. Identified areas where the generated route required further checking to ensure that it was geographically appropriate."
+    },
+    {
+      "date": "2026-09-09",
+      "dayOfWeek": "Wednesday",
+      "activities": "Worked on connecting the selected underground chamber to the appropriate network infrastructure element through road-network routing. Reviewed the coordinate information of the selected locations and tested how the routing process handled different starting and ending points. Examined the generated route information to ensure that the required network connection could be represented in the workflow."
+    },
+    {
+      "date": "2026-09-10",
+      "dayOfWeek": "Thursday",
+      "activities": "Reviewed the route visualisation results and investigated issues involving route alignment and geographical coordinates. Compared the generated routes with the surrounding road network to identify cases where the routing output did not match the expected geographical path. Considered possible improvements to make the route representation more accurate and consistent."
+    },
+    {
+      "date": "2026-09-11",
+      "dayOfWeek": "Friday",
+      "activities": "Organised the geospatial processing outputs and reviewed the consistency of the route information generated by the Python implementation. Examined the distance values and coordinate sequences returned by the routing process. Consolidated the testing findings and identified areas requiring further refinement before integrating the routing component with other project modules."
+    },
+    {
+      "date": "2026-09-14",
+      "dayOfWeek": "Monday",
+      "activities": "Began structuring the project into specialised agents to separate the main processing responsibilities. Reviewed how geographical validation, shortest-path processing, costing, and HLD generation could be handled by individual agents. Explored how this modular approach could make the overall automation workflow easier to manage and maintain."
+    },
+    {
+      "date": "2026-09-15",
+      "dayOfWeek": "Tuesday",
+      "activities": "Started working on the Validation Agent and explored how geographical validation results could be processed and returned in a structured JSON format. Reviewed the different validation conditions required to assess customer location information. Worked on organising the expected input and output fields to support communication between the agent and the Python workflow."
+    },
+    {
+      "date": "2026-09-17",
+      "dayOfWeek": "Thursday",
+      "activities": "Continued developing the Validation Agent by incorporating geographical checks such as address alignment and location coverage. Explored how the system could identify inaccurate coordinates and determine whether a location was suitable for further processing. Refined the validation conditions to improve the consistency of the results returned by the agent."
+    },
+    {
+      "date": "2026-09-18",
+      "dayOfWeek": "Friday",
+      "activities": "Tested the Validation Agent using different sample location inputs to evaluate its responses under various geographical conditions. Reviewed the returned validation results and checked whether the agent could distinguish between valid and invalid location information. Documented the testing outcomes and identified cases that required additional validation logic."
+    },
+    {
+      "date": "2026-09-21",
+      "dayOfWeek": "Monday",
+      "activities": "Started working on the Shortest Path Agent and explored how Python-generated route information could be processed into structured outputs. Reviewed the relationship between the selected infrastructure points and the generated road-network routes. Worked on defining the information required by the agent to support the shortest-path processing stage."
+    },
+    {
+      "date": "2026-09-22",
+      "dayOfWeek": "Tuesday",
+      "activities": "Integrated road-network routing results into the shortest-path processing workflow and reviewed the route distances returned by OSRM. Examined how the route information could be transferred and interpreted by the agent. Tested the processing logic to ensure that the generated route details were organised correctly for subsequent use."
+    },
+    {
+      "date": "2026-09-23",
+      "dayOfWeek": "Wednesday",
+      "activities": "Worked on improving the route output structure and ensuring that two separate route segments could be identified and processed independently. Reviewed how the system should organise the coordinates and distance information for each route. Refined the output structure to support different service requirements and the generation of corresponding technical documentation."
+    },
+    {
+      "date": "2026-09-24",
+      "dayOfWeek": "Thursday",
+      "activities": "Tested the Shortest Path Agent using different sample scenarios to evaluate its ability to process route and connectivity information. Reviewed the generated outputs and examined whether the selected routes corresponded to the expected infrastructure connections. Identified inconsistencies during testing and considered improvements to the route processing logic."
+    },
+    {
+      "date": "2026-09-25",
+      "dayOfWeek": "Friday",
+      "activities": "Reviewed the development progress of the Validation Agent and Shortest Path Agent. Evaluated the testing results and identified areas that required further improvements, particularly in geographical validation and route consistency. Organised the findings to guide the next stage of agent development and integration."
+    },
+    {
+      "date": "2026-09-28",
+      "dayOfWeek": "Monday",
+      "activities": "Reviewed the requirement to store service request information and agent validation durations in Amazon DynamoDB. Studied how the details of a service request could be organised into a structured JSON record for storage. Examined how the validation duration of the four agent processing stages could be recorded to support performance tracking and future reference."
+    },
+    {
+      "date": "2026-09-29",
+      "dayOfWeek": "Tuesday",
+      "activities": "Explored how structured JSON request data could be prepared for storage and retrieved during the automated workflow. Reviewed the relationship between the service request information and the corresponding validation results. Worked on understanding how the data structure could support consistent information storage and retrieval through DynamoDB."
+    },
+    {
+      "date": "2026-09-30",
+      "dayOfWeek": "Wednesday",
+      "activities": "Continued refining the data structure used to transfer information between the Python workflow and the specialised agents. Reviewed the required input and output fields to ensure that the information remained consistent throughout the processing stages. Consolidated the development progress and prepared for the implementation of the costing and document generation components."
+    },
+    {
+      "date": "2026-10-01",
+      "dayOfWeek": "Thursday",
+      "activities": "Started developing the Costing Agent by reviewing the existing costing template and identifying the information required for cost calculation. Studied the relationship between route distances, service requirements, and the corresponding costing items. Organised the required input fields to establish a structured approach for generating costing results automatically."
+    },
+    {
+      "date": "2026-10-02",
+      "dayOfWeek": "Friday",
+      "activities": "Studied how route distances and other project information could be mapped to the corresponding costing items. Reviewed the costing template to understand the different fields and calculation requirements. Explored how the information generated by the geospatial processing component could be used as input for the costing process."
+    },
+    {
+      "date": "2026-10-05",
+      "dayOfWeek": "Monday",
+      "activities": "Worked on preparing the costing input data using the route distances generated by the geospatial processing component. Reviewed how the route information should be organised before being passed to the Costing Agent. Examined the relationship between the generated distance values and the relevant items in the costing template."
+    },
+    {
+      "date": "2026-10-06",
+      "dayOfWeek": "Tuesday",
+      "activities": "Developed the logic for transferring costing results into the Excel template using the relevant column headers. Worked on matching the structured agent responses with the corresponding fields in the workbook. Reviewed the data mapping process to ensure that the generated costing information could be inserted into the correct locations."
+    },
+    {
+      "date": "2026-10-07",
+      "dayOfWeek": "Wednesday",
+      "activities": "Tested the Costing Agent and reviewed whether the calculated amounts were correctly reflected in the generated Excel workbook. Compared the agent's output with the expected template structure to identify possible mapping or calculation errors. Documented the testing results and identified areas requiring further adjustments."
+    },
+    {
+      "date": "2026-10-08",
+      "dayOfWeek": "Thursday",
+      "activities": "Investigated inconsistencies found in the costing outputs and refined the data mapping between the agent response and the Excel template. Reviewed the input values and calculation process to identify possible causes of inaccurate results. Made adjustments to improve the consistency of the generated costing information."
+    },
+    {
+      "date": "2026-10-09",
+      "dayOfWeek": "Friday",
+      "activities": "Reviewed the overall costing workflow and verified the consistency of the route distance values used in the calculations. Examined whether the information transferred from the geospatial processing component was correctly reflected in the costing results. Consolidated the testing findings and evaluated the improvements made to the Costing Agent."
+    },
+    {
+      "date": "2026-10-12",
+      "dayOfWeek": "Monday",
+      "activities": "Started working on the High-Level Design (HLD) Agent and reviewed the information required to populate the PowerPoint template. Studied the existing HLD document structure to understand how technical service request information was presented. Identified the key fields and sections that needed to be generated automatically based on the project data."
+    },
+    {
+      "date": "2026-10-13",
+      "dayOfWeek": "Tuesday",
+      "activities": "Prepared the structured information mapping required for generating HLD documents from the agent's JSON response. Reviewed the relationship between the generated technical information and the corresponding sections in the PowerPoint template. Organised the required data fields to support accurate and consistent document generation."
+    },
+    {
+      "date": "2026-10-14",
+      "dayOfWeek": "Wednesday",
+      "activities": "Worked on automating the transfer of project information into the appropriate fields in the HLD PowerPoint template. Explored how structured data could be used to populate the presentation without requiring manual entry for every section. Reviewed the placement of information to ensure that the generated slides followed the expected document structure."
+    },
+    {
+      "date": "2026-10-15",
+      "dayOfWeek": "Thursday",
+      "activities": "Tested the HLD generation process and reviewed the accuracy of the information displayed in the generated presentation. Examined whether the project details and route information were inserted into the correct sections of the PowerPoint template. Identified formatting and data placement issues that required further improvement."
+    },
+    {
+      "date": "2026-10-16",
+      "dayOfWeek": "Friday",
+      "activities": "Reviewed the outputs generated by the Costing Agent and HLD Agent to evaluate their overall consistency. Examined the accuracy of the information transferred into the Excel and PowerPoint templates. Identified areas requiring further refinement, particularly in data mapping, document formatting, and output consistency."
+    },
+    {
+      "date": "2026-10-19",
+      "dayOfWeek": "Monday",
+      "activities": "Began integrating the specialised agents into a central Python orchestration workflow to coordinate the overall processing sequence. Reviewed how the Validation, Shortest Path, Costing, and HLD Agents should communicate with one another. Worked on organising the execution flow to ensure that information could be transferred between the different processing stages."
+    },
+    {
+      "date": "2026-10-20",
+      "dayOfWeek": "Tuesday",
+      "activities": "Worked on implementing conditional execution within the Python orchestration workflow. Explored how downstream processes should only continue when the required validation and routing conditions were successfully satisfied. Refined the processing sequence to reduce unnecessary execution and improve the overall workflow structure."
+    },
+    {
+      "date": "2026-10-21",
+      "dayOfWeek": "Wednesday",
+      "activities": "Tested the integrated workflow and reviewed how information was passed between the Python orchestrator and the specialised agents. Examined whether each agent received the required input data and returned the expected output format. Identified integration issues and evaluated the consistency of information throughout the automated process."
+    },
+    {
+      "date": "2026-10-22",
+      "dayOfWeek": "Thursday",
+      "activities": "Investigated integration issues within the automated workflow and improved the handling of unsuccessful responses and missing information. Reviewed different scenarios where an agent might return incomplete or unexpected results. Worked on improving the workflow's response to these situations to prevent errors from affecting subsequent processing stages."
+    },
+    {
+      "date": "2026-10-23",
+      "dayOfWeek": "Friday",
+      "activities": "Reviewed the overall automated workflow and evaluated the consistency of the generated JSON, Excel, and PowerPoint outputs. Tested the information transferred between the different agents and examined whether the final documents reflected the expected project details. Consolidated the testing findings and identified remaining areas for improvement."
+    },
+    {
+      "date": "2026-10-26",
+      "dayOfWeek": "Monday",
+      "activities": "Explored the AWS environment and reviewed how the locally developed Python workflow could be prepared for cloud-based integration. Studied the general architecture and requirements involved in connecting the application with cloud services. Gained a better understanding of how the existing local implementation could be adapted for deployment within the AWS environment."
+    },
+    {
+      "date": "2026-10-27",
+      "dayOfWeek": "Tuesday",
+      "activities": "Studied Amazon Bedrock and its role in supporting the specialised AI agents within the project architecture. Explored how foundation models could be used to process information and support different stages of the automated workflow. Reviewed how the agent-based approach could be incorporated into the broader AWS solution."
+    },
+    {
+      "date": "2026-10-28",
+      "dayOfWeek": "Wednesday",
+      "activities": "Reviewed the API integration approach and explored the requirements for connecting the application workflow with AWS services. Studied how API communication could support the transfer of service request information between different components. Examined the integration requirements and identified the dependencies that needed to be considered before proceeding."
+    },
+    {
+      "date": "2026-10-29",
+      "dayOfWeek": "Thursday",
+      "activities": "Continued testing the project workflow and reviewed the challenges involved in integrating the local development environment with the AWS environment. Examined the existing implementation and considered the adjustments required to support cloud-based execution. Discussed the integration requirements and reviewed the progress of the cloud implementation."
+    },
+    {
+      "date": "2026-10-30",
+      "dayOfWeek": "Friday",
+      "activities": "Consolidated the implementation progress and reviewed the current status of the geospatial processing, specialised agents, and automated document generation components. Evaluated the overall workflow to identify completed development areas and outstanding technical challenges. Organised the development findings and prepared a summary of the project progress for the final review."
+    },
+    {
+      "date": "2026-11-02",
+      "dayOfWeek": "Monday",
+      "activities": "Conducted an overall review of the project implementation and evaluated the progress of the automated service request workflow. Organised the development outputs, including the Python implementation, geospatial processing results, specialised agent components, and generated documents. Documented the work completed throughout the internship period and identified the remaining areas that could be further improved."
+    }
+  ]
+}

@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Industrial Training e-Portfolio — SQQXK4966." />
+  <title>Academic Journey · E-Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="academic">
+
+  <div class="ambient-decor" aria-hidden="true">
+    <span class="ambient-blob blob-1"></span>
+    <span class="ambient-blob blob-2"></span>
+    <span class="ambient-blob blob-3"></span>
+    <span class="ambient-ring ring-1"></span>
+    <span class="ambient-ring ring-2"></span>
+  </div>
+
+  <div class="app-shell" id="appShell">
+    <div class="app-main">
+      <header class="mobile-bar">
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteSidebar">
+          <span></span><span></span><span></span>
+        </button>
+        <span class="mobile-bar-title">E-Portfolio</span>
+      </header>
+      <main class="page-content">
+
+<!-- ACADEMIC JOURNEY (FYP grouped) -->
+    <section class="section chapter-intro" id="academic-journey">
+      <div class="section-heading centered">
+        <p class="eyebrow">SECTION 3.0 · ACADEMIC JOURNEY</p>
+        <h2>Signature Work Showcase</h2>
+        <p>
+          The final-year project is the Smart Fitness Recommendation System, on this page.
+          Pizza sales and electricity prediction are supporting assignments.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="signature-works">
+      <div class="section-heading centered">
+        <p class="eyebrow">SUPPORTING ASSIGNMENTS</p>
+        <h2>Other coursework</h2>
+      </div>
+      <div class="recommendations-grid">
+        <article class="recommendation-card" id="pizza-sales">
+          <span class="rec-icon">01</span>
+          <h3>Pizza Sales Analytics Dashboard</h3>
+          <p><strong>Role.</strong> I designed the dashboard.</p>
+          <p><strong>Tools.</strong> Tableau.</p>
+          <p><strong>Outcome.</strong> The dashboard shows sales performance, customer trends, and product demand, so the figures can support data-driven decisions.</p>
+          <p><strong>Reflection.</strong> The useful part was turning sales records into a view of customers and products, rather than leaving the numbers in a table.</p>
+        </article>
+        <article class="recommendation-card wide" id="electricity">
+          <span class="rec-icon">02</span>
+          <h3>Electricity Consumption Prediction Model</h3>
+          <p><strong>Role.</strong> I compared the models.</p>
+          <p><strong>Tools.</strong> Orange.</p>
+          <p><strong>Outcome.</strong> The models predict monthly electricity use after preprocessing, missing-value imputation, and feature analysis.</p>
+          <p><strong>Reflection.</strong> The comparison only held once the data was prepared. Cleaning and feature analysis came before any model choice.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- WELCOME -->
+    <section class="welcome section light-section" id="fyp-welcome">
+      <span class="section-blob section-blob-left" aria-hidden="true"></span>
+      <span class="section-blob section-blob-right" aria-hidden="true"></span>
+      <div class="section-heading centered">
+        <p class="eyebrow">WELCOME</p>
+        <h2>My Final Year Project Journey</h2>
+      </div>
+
+      <div class="welcome-layout">
+        <div class="welcome-copy">
+          <p>
+            Welcome to my Final Year Project e-Portfolio. This portfolio documents
+            the research, planning, development, testing and learning experiences
+            involved in completing my project entitled
+            <strong>“Smart Fitness Recommendation System.”</strong>
+          </p>
+          <p>
+            The project combines health calculations, artificial intelligence,
+            computer vision and multi-criteria decision-making to support healthier
+            lifestyle choices. It allows users to manage personal profiles, calculate
+            BMI and TDEE, identify food from images, estimate calorie intake and
+            receive ranked exercise recommendations.
+          </p>
+          <p>
+            This portfolio presents the project background, research objectives,
+            weekly progress, system modules, technical evidence, challenges,
+            achievements and personal reflection gained throughout the project.
+          </p>
+        </div>
+
+        <a class="poster-frame" href="assets/fyp-poster.pdf" target="_blank" rel="noopener">
+          <img class="poster-image" src="assets/fyp-poster.jpg" alt="FYP poster — Smart Fitness Recommendation System">
+          <span class="poster-caption">View full poster</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- SYNOPSIS -->
+    <section class="section synopsis-section" id="synopsis">
+      <div class="section-heading centered">
+        <p class="eyebrow">PROJECT SYNOPSIS</p>
+        <h2>Smart Fitness Recommendation System</h2>
+        <p>A concise overview of the research problem, proposed solution and expected contribution.</p>
+      </div>
+
+      <div class="synopsis-layout">
+        <article class="content-card synopsis-card">
+          <h3>Overview</h3>
+          <p>
+            The Smart Fitness Recommendation System is a web-based health application designed
+            to help users understand their personal energy needs, monitor food intake and
+            receive exercise guidance tailored to their goals. Rather than relying on manual
+            calorie logging and generic fitness advice, the system combines health analytics,
+            computer vision and structured decision-making into one integrated platform.
+          </p>
+          <p>
+            Users begin by creating a secure profile and entering body metrics such as height,
+            weight, age, gender and activity level. The system then calculates BMI, BMR and
+            TDEE to determine weight status and recommended daily calorie intake. Food images
+            can be uploaded or captured via camera, after which a custom YOLOv8 model detects
+            food items, estimates nutritional content and stores the results for later review.
+          </p>
+          <p>
+            For exercise planning, the Analytic Hierarchy Process (AHP) evaluates alternatives
+            using weighted criteria and recommends suitable activities based on the user’s
+            fitness goal and selected body area. Developed with Python, Flask and SQLite,
+            the project demonstrates how Decision Science and artificial intelligence can be
+            applied to create a practical, explainable and user-centred health support system.
+          </p>
+        </article>
+
+        <div class="synopsis-highlights">
+          <article class="highlight-card">
+            <span>01</span>
+            <h4>Research Focus</h4>
+            <p>Personalised health monitoring through integrated AI and decision analysis.</p>
+          </article>
+          <article class="highlight-card">
+            <span>02</span>
+            <h4>Core Technologies</h4>
+            <p>Python, Flask, YOLOv8, OpenCV, SQLite and AHP.</p>
+          </article>
+          <article class="highlight-card">
+            <span>03</span>
+            <h4>Expected Outcome</h4>
+            <p>A functional web system that automates food logging and ranks exercises transparently.</p>
+          </article>
+          <article class="highlight-card">
+            <span>04</span>
+            <h4>Academic Contribution</h4>
+            <p>Combines computer vision with multi-criteria decision-making for fitness guidance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section class="section light-section" id="project">
+      <div class="section-heading centered">
+        <p class="eyebrow">PROJECT PAGE</p>
+        <h2>About My Final Year Project</h2>
+        <p>
+          Smart Fitness Recommendation System Using YOLO Food Detection and AHP-Based Exercise Recommendation
+        </p>
+      </div>
+
+      <div class="project-overview">
+        <article class="content-card large-card">
+          <span class="number-label">01</span>
+          <h3>Project Background</h3>
+          <p>
+            Maintaining a healthy lifestyle requires users to understand their energy
+            needs, food intake and suitable physical activities. However, many users
+            find manual calorie tracking inconvenient and receive generic exercise
+            advice that may not match their body condition, target body area or goals.
+          </p>
+          <p>
+            The proposed system integrates health calculations, computer vision and
+            decision analysis into one web application. It provides a more convenient
+            way to monitor food intake and obtain personalised fitness guidance.
+          </p>
+        </article>
+
+        <article class="content-card large-card">
+          <span class="number-label">02</span>
+          <h3>Problem Statement</h3>
+          <p>
+            Existing fitness applications often depend on manual food entry and may
+            provide generalised exercise recommendations. Users may not know their
+            appropriate calorie requirements or which exercises best match their needs.
+          </p>
+          <p>
+            A unified system is therefore needed to automatically identify food,
+            estimate calories, calculate personal health indicators and recommend
+            exercises through a transparent decision-making method.
+          </p>
+        </article>
+      </div>
+
+      <div class="research-questions-panel content-card">
+        <p class="eyebrow">1.4 RESEARCH QUESTIONS</p>
+        <h3>Research Questions</h3>
+        <p>
+          Based on the problem statements discussed in the previous section, this study
+          aims to answer the following research questions:
+        </p>
+        <ol class="research-questions-list">
+          <li>
+            How can an AI-powered web-based system provide personalised fitness
+            recommendations for weight management?
+          </li>
+          <li>
+            How can Body Mass Index (BMI), Basal Metabolic Rate (BMR) and Total Daily
+            Energy Expenditure (TDEE) be integrated to generate personalised nutritional
+            recommendations?
+          </li>
+          <li>
+            How can You Only Look Once (YOLO) improve the efficiency and accuracy of food
+            calorie tracking through automatic food recognition?
+          </li>
+        </ol>
+      </div>
+
+      <div class="objective-panel">
+        <div>
+          <p class="eyebrow">RESEARCH OBJECTIVES</p>
+          <h3>Research Objectives</h3>
+          <p>
+            The main objective of this study is to develop an intelligent web-based fitness
+            recommendation system that assists users in managing their weight through personalised
+            nutrition and exercise recommendations.
+          </p>
+          <p class="objective-intro">The specific objectives are as follows:</p>
+        </div>
+        <ol class="objective-list">
+          <li>
+            <span>01</span>
+            <p>To develop an AI-powered web-based fitness recommendation system for healthy weight management.</p>
+          </li>
+          <li>
+            <span>02</span>
+            <p>To calculate users' nutritional requirements using Body Mass Index (BMI), Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE).</p>
+          </li>
+          <li>
+            <span>03</span>
+            <p>To implement YOLO object detection for automatic food recognition and calorie estimation.</p>
+          </li>
+          <li>
+            <span>04</span>
+            <p>To apply the Analytic Hierarchy Process (AHP) to rank and recommend suitable exercises based on multiple evaluation criteria.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="scope-grid">
+        <article class="icon-card">
+          <span>01</span><h3>User Management</h3>
+          <p>Registration, secure login, password hashing and personal profile storage.</p>
+        </article>
+        <article class="icon-card">
+          <span>02</span><h3>Health Analysis</h3>
+          <p>BMI, TDEE, weight category and daily calorie recommendation.</p>
+        </article>
+        <article class="icon-card">
+          <span>03</span><h3>Food Recognition</h3>
+          <p>Image upload or camera input with YOLOv8 food-object detection.</p>
+        </article>
+        <article class="icon-card">
+          <span>04</span><h3>Exercise Ranking</h3>
+          <p>AHP-based recommendations according to user needs and selected body area.</p>
+        </article>
+      </div>
+
+      <div class="methodology">
+        <div class="section-heading">
+          <p class="eyebrow">RESEARCH METHODOLOGY</p>
+          <h2>Systematic Development Process</h2>
+        </div>
+        <div class="process-line">
+          <article><span>1</span><h4>Literature Review</h4><p>Review health, calorie, food detection and exercise recommendation studies.</p></article>
+          <article><span>2</span><h4>Requirement Analysis</h4><p>Identify users, system functions, input requirements and expected outputs.</p></article>
+          <article><span>3</span><h4>System Design</h4><p>Design architecture, database, interface, workflow and recommendation logic.</p></article>
+          <article><span>4</span><h4>Model Development</h4><p>Prepare food data and train the custom YOLOv8 detection model.</p></article>
+          <article><span>5</span><h4>Implementation</h4><p>Integrate Python, Flask, SQLite, OpenCV, YOLO and AHP modules.</p></article>
+          <article><span>6</span><h4>Testing</h4><p>Validate functions, calculations, detection output and system usability.</p></article>
+        </div>
+      </div>
+
+      <div class="challenges-section">
+        <div class="section-heading centered">
+          <p class="eyebrow">PROJECT CHALLENGES</p>
+          <h2>Challenges and Solutions</h2>
+          <p>Key difficulties encountered during development and how they were addressed.</p>
+        </div>
+
+        <div class="challenge-solution-grid">
+          <article class="challenge-solution-card">
+            <div class="challenge-block">
+              <span>Challenge</span>
+              <h3>Training YOLO Dataset</h3>
+            </div>
+            <div class="solution-block">
+              <span>Solution</span>
+              <p>Prepared a labelled food image dataset, configured YOLOv8 training parameters and iteratively evaluated model performance to improve detection accuracy.</p>
+            </div>
+          </article>
+          <article class="challenge-solution-card">
+            <div class="challenge-block">
+              <span>Challenge</span>
+              <h3>Collecting Food Images</h3>
+            </div>
+            <div class="solution-block">
+              <span>Solution</span>
+              <p>Gathered food images from multiple sources, standardised labelling format and organised classes to ensure sufficient variety for model training.</p>
+            </div>
+          </article>
+          <article class="challenge-solution-card">
+            <div class="challenge-block">
+              <span>Challenge</span>
+              <h3>Camera Compatibility</h3>
+            </div>
+            <div class="solution-block">
+              <span>Solution</span>
+              <p>Implemented OpenCV-based camera capture with image upload as a fallback so users could still submit food photos when live camera access was unavailable.</p>
+            </div>
+          </article>
+          <article class="challenge-solution-card">
+            <div class="challenge-block">
+              <span>Challenge</span>
+              <h3>Flask Integration</h3>
+            </div>
+            <div class="solution-block">
+              <span>Solution</span>
+              <p>Structured the application into modular Flask routes and Python components, allowing health calculations, detection and recommendation features to work within one web system.</p>
+            </div>
+          </article>
+          <article class="challenge-solution-card">
+            <div class="challenge-block">
+              <span>Challenge</span>
+              <h3>SQLite Relationship</h3>
+            </div>
+            <div class="solution-block">
+              <span>Solution</span>
+              <p>Designed relational database tables with foreign keys to connect user profiles, food detection records and history data consistently.</p>
+            </div>
+          </article>
+          <article class="challenge-solution-card">
+            <div class="challenge-block">
+              <span>Challenge</span>
+              <h3>Debugging Model Path</h3>
+            </div>
+            <div class="solution-block">
+              <span>Solution</span>
+              <p>Used consistent relative file paths and tested model loading across different environments to prevent path errors during deployment and execution.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEEKLY PROGRESS -->
+    <section class="section" id="progress">
+      <div class="section-heading centered">
+        <p class="eyebrow">WEEKLY PROGRESS</p>
+        <h2>Project Development Timeline</h2>
+        <p>Update the details below so they match your actual logbook and supervisor meetings.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker">01</div>
+          <div class="timeline-card">
+            <span>Week 1</span>
+            <h3>Topic Selection and Initial Planning</h3>
+            <h4>Activities</h4>
+            <p>Discussed possible project topics, identified a health-related problem and selected the Smart Fitness Recommendation System.</p>
+            <h4>Reflection</h4>
+            <p>I learned that a good project must solve a meaningful problem while remaining realistic within the available time and resources.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">02</div>
+          <div class="timeline-card">
+            <span>Week 2</span>
+            <h3>Literature Review</h3>
+            <h4>Activities</h4>
+            <p>Reviewed studies related to BMI, TDEE, calorie estimation, food recognition, YOLO and exercise recommendation.</p>
+            <h4>Reflection</h4>
+            <p>This stage helped me understand the research gap and establish a stronger academic foundation for the system.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">03</div>
+          <div class="timeline-card">
+            <span>Week 3</span>
+            <h3>Proposal and Requirement Analysis</h3>
+            <h4>Activities</h4>
+            <p>Prepared the problem statement, objectives, project scope, functional requirements and proposed solution.</p>
+            <h4>Reflection</h4>
+            <p>I improved my ability to connect the research problem, objectives and proposed system functions logically.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">04</div>
+          <div class="timeline-card">
+            <span>Week 4</span>
+            <h3>System and Database Design</h3>
+            <h4>Activities</h4>
+            <p>Designed the system workflow, database tables, user interface structure and application modules.</p>
+            <h4>Reflection</h4>
+            <p>Planning the architecture before coding reduced confusion and made module integration more systematic.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">05</div>
+          <div class="timeline-card">
+            <span>Week 5</span>
+            <h3>User Authentication Development</h3>
+            <h4>Activities</h4>
+            <p>Developed registration, login, user profile and password-change functions using SQLite and bcrypt.</p>
+            <h4>Reflection</h4>
+            <p>I learned the importance of protecting user credentials rather than storing plain-text passwords.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">06</div>
+          <div class="timeline-card">
+            <span>Week 6</span>
+            <h3>BMI and TDEE Module</h3>
+            <h4>Activities</h4>
+            <p>Implemented BMI classification, BMR and TDEE calculations and personalised calorie recommendations.</p>
+            <h4>Reflection</h4>
+            <p>This stage strengthened my understanding of converting health formulas into usable system functions.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">07</div>
+          <div class="timeline-card">
+            <span>Week 7</span>
+            <h3>Food Dataset Preparation</h3>
+            <h4>Activities</h4>
+            <p>Collected, labelled and organised food images before training the YOLOv8 detection model.</p>
+            <h4>Reflection</h4>
+            <p>I realised that model quality depends greatly on accurate labels and sufficiently varied training images.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">08</div>
+          <div class="timeline-card">
+            <span>Week 8</span>
+            <h3>YOLOv8 Training and Evaluation</h3>
+            <h4>Activities</h4>
+            <p>Trained the custom model, reviewed prediction results and adjusted dataset or training settings where necessary.</p>
+            <h4>Reflection</h4>
+            <p>Model training required patience because improvements depended on repeated testing and careful error analysis.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">09</div>
+          <div class="timeline-card">
+            <span>Week 9</span>
+            <h3>Food Detection Integration</h3>
+            <h4>Activities</h4>
+            <p>Integrated image upload, camera capture, bounding-box output, detected food names and calorie estimates into Flask.</p>
+            <h4>Reflection</h4>
+            <p>I gained practical experience integrating a machine-learning model into a working web application.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">10</div>
+          <div class="timeline-card">
+            <span>Week 10</span>
+            <h3>AHP Exercise Recommendation</h3>
+            <h4>Activities</h4>
+            <p>Defined exercise criteria, applied AHP weights and ranked exercises according to user preferences and selected body areas.</p>
+            <h4>Reflection</h4>
+            <p>This module demonstrated how Decision Science can make recommendation logic more structured and explainable.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">11</div>
+          <div class="timeline-card">
+            <span>Week 11</span>
+            <h3>History and Data Visualisation</h3>
+            <h4>Activities</h4>
+            <p>Stored detection records and developed date filters, summaries and visualisations for users’ food history.</p>
+            <h4>Reflection</h4>
+            <p>I learned to present stored information in a form that users can understand quickly.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">12</div>
+          <div class="timeline-card">
+            <span>Week 12</span>
+            <h3>System Testing and Debugging</h3>
+            <h4>Activities</h4>
+            <p>Tested each module, corrected database and interface errors, and checked calculation and recommendation outputs.</p>
+            <h4>Reflection</h4>
+            <p>Testing showed that a system is not complete merely because it runs; each output must also be accurate and consistent.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">13</div>
+          <div class="timeline-card">
+            <span>Week 13</span>
+            <h3>Poster and Presentation Preparation</h3>
+            <h4>Activities</h4>
+            <p>Prepared the FYP poster, presentation slides, system demonstration and possible viva responses.</p>
+            <h4>Reflection</h4>
+            <p>I improved my ability to explain complex technical work clearly to a non-technical audience.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-marker">14</div>
+          <div class="timeline-card">
+            <span>Week 14</span>
+            <h3>Final Report and Portfolio</h3>
+            <h4>Activities</h4>
+            <p>Completed the final report, revised references, organised evidence and developed this e-Portfolio.</p>
+            <h4>Reflection</h4>
+            <p>This final stage helped me appreciate the progress made from the initial idea to a functioning application.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- REFLECTION -->
+    <section class="section dark-section" id="reflection">
+      <div class="section-heading centered">
+        <p class="eyebrow">REFLECTION</p>
+        <h2>What I Learned From This Project</h2>
+      </div>
+
+      <div class="reflection-grid">
+        <article>
+          <span>01</span>
+          <h3>Technical Growth</h3>
+          <p>
+            I improved my programming ability by building a multi-page Flask
+            application and connecting user authentication, calculations, computer
+            vision, recommendation logic and database operations.
+          </p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Research Growth</h3>
+          <p>
+            I learned how to identify a research problem, review literature, define
+            objectives, choose suitable methods and present findings in an academic form.
+          </p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Problem Solving</h3>
+          <p>
+            Errors involving packages, environments, cameras, model paths, databases
+            and interface keys required me to investigate causes systematically and test
+            different solutions.
+          </p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Personal Development</h3>
+          <p>
+            Completing the project strengthened my patience, time management,
+            confidence, independent learning and willingness to continue improving.
+          </p>
+        </article>
+      </div>
+
+      <blockquote>
+        “The most valuable outcome of this project was not only the completed system,
+        but also the ability to learn independently, overcome uncertainty and transform
+        an initial idea into a functional solution.”
+      </blockquote>
+    </section>
+
+    <!-- DEVELOPMENT -->
+    <section class="section light-section" id="development">
+      <div class="section-heading centered">
+        <p class="eyebrow">SYSTEM DEVELOPMENT</p>
+        <h2>Smart Fitness System Modules</h2>
+        <p>
+          A complete walkthrough of the Smart Fitness system modules and technology stack.
+        </p>
+      </div>
+
+      <div class="diagram-block">
+        <div class="section-heading centered">
+          <p class="eyebrow">SYSTEM ARCHITECTURE</p>
+          <h2>System Architecture Diagram</h2>
+        </div>
+
+        <div class="architecture-diagram">
+          <div class="diagram-node">User</div>
+          <div class="diagram-arrow">↓</div>
+          <div class="diagram-node">Login System</div>
+          <div class="diagram-arrow">↓</div>
+          <div class="diagram-node">Dashboard</div>
+          <div class="diagram-arrow">↓</div>
+
+          <div class="diagram-divider">
+            <div class="diagram-modules">
+              <div class="diagram-module">BMI Module</div>
+              <div class="diagram-module">TDEE Module</div>
+              <div class="diagram-module">Food Detection</div>
+              <div class="diagram-module">Exercise Recommendation</div>
+            </div>
+          </div>
+
+          <div class="diagram-arrow">↓</div>
+
+          <div class="diagram-engines">
+            <div class="diagram-engine">YOLOv8</div>
+            <div class="diagram-engine">SQLite Database</div>
+            <div class="diagram-engine">AHP Engine</div>
+          </div>
+
+          <div class="diagram-arrow">↓</div>
+          <div class="diagram-node diagram-result">Results</div>
+        </div>
+      </div>
+
+      <div class="diagram-block results-block" id="results">
+        <div class="section-heading centered">
+          <p class="eyebrow">PROJECT RESULTS</p>
+          <h2>Data Visualisation &amp; Outcomes</h2>
+          <p>Screenshots from the Smart Fitness system: weight journey forecasting and calorie intake vs burned.</p>
+        </div>
+        <div class="results-grid">
+          <figure class="results-figure">
+            <img class="system-shot" src="assets/weight-journey.jpg" alt="Weight journey chart with hybrid forecast and goal ETA">
+            <figcaption>Body metrics — weight journey (actual vs hybrid forecast)</figcaption>
+          </figure>
+          <figure class="results-figure">
+            <img class="system-shot" src="assets/calories-intake.jpg" alt="Calories intake vs burned line chart">
+            <figcaption>Nutrition — calories intake vs burned</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="diagram-block">
+        <div class="section-heading centered">
+          <p class="eyebrow">SYSTEM WORKFLOW</p>
+          <h2>Flowchart</h2>
+        </div>
+
+        <div class="flowchart">
+          <div class="flow-step flow-start">Start</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step">Login</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step">Input User Information</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step">Calculate BMI</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step">Upload Food</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step">YOLO Detection</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step">Calculate Calories</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step">Choose Body Part</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step">AHP Recommendation</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step">Save History</div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-step flow-end">End</div>
+        </div>
+      </div>
+
+      <div class="module-stack">
+        <article class="module-card">
+          <div class="module-copy">
+            <span class="module-number">01</span>
+            <h3>User Registration and Login</h3>
+            <p>
+              New users can create an account and log in before accessing personalised
+              features. Passwords are protected using bcrypt hashing, while profile data
+              are stored in SQLite.
+            </p>
+            <ul>
+              <li>User registration and validation</li>
+              <li>Secure password storage</li>
+              <li>Login session management</li>
+              <li>Password-change function</li>
+            </ul>
+          </div>
+          <img class="system-shot" src="assets/login.jpg" alt="FitLife login screen">
+        </article>
+
+        <article class="module-card reverse">
+          <div class="module-copy">
+            <span class="module-number">02</span>
+            <h3>BMI and TDEE Calculation</h3>
+            <p>
+              The module uses personal data such as height, weight, age, gender and
+              activity level to calculate BMI, BMR and TDEE. It then displays weight
+              status and daily calorie guidance.
+            </p>
+            <ul>
+              <li>BMI result and category</li>
+              <li>Basal Metabolic Rate</li>
+              <li>Total Daily Energy Expenditure</li>
+              <li>Recommended calorie intake</li>
+            </ul>
+          </div>
+          <img class="system-shot" src="assets/bmi-tdee.jpg" alt="BMI, BMR and TDEE calculation screen">
+        </article>
+
+        <article class="module-card">
+          <div class="module-copy">
+            <span class="module-number">03</span>
+            <h3>Nutrition Recommendation</h3>
+            <p>
+              Based on the user’s profile, current weight and desired weight, the system
+              provides calorie guidance to support safe and realistic weight management.
+            </p>
+            <ul>
+              <li>Personal calorie target</li>
+              <li>Weight-management guidance</li>
+              <li>Health-status feedback</li>
+              <li>Easy-to-read summaries</li>
+            </ul>
+          </div>
+          <img class="system-shot" src="assets/nutrition.jpg" alt="Nutrition recommendation screen">
+        </article>
+
+        <article class="module-card reverse">
+          <div class="module-copy">
+            <span class="module-number">04</span>
+            <h3>YOLOv8 Food Detection</h3>
+            <p>
+              Users can upload an image or capture one using a camera. The custom YOLOv8
+              model detects supported food items, draws bounding boxes and produces an
+              estimated calorie total.
+            </p>
+            <ul>
+              <li>Image upload and camera input</li>
+              <li>Food-object detection</li>
+              <li>Bounding-box visualisation</li>
+              <li>Calorie estimation and saving</li>
+            </ul>
+          </div>
+          <img class="system-shot" src="assets/detection.jpg" alt="YOLOv8 food detection result screen">
+        </article>
+
+        <article class="module-card">
+          <div class="module-copy">
+            <span class="module-number">05</span>
+            <h3>AHP Exercise Recommendation</h3>
+            <p>
+              The Analytic Hierarchy Process evaluates exercise alternatives using
+              weighted criteria. The module then recommends suitable exercises based on
+              the selected body part and user requirements.
+            </p>
+            <ul>
+              <li>Body-part selection</li>
+              <li>Weighted decision criteria</li>
+              <li>Exercise scoring and ranking</li>
+              <li>Personalised recommendation output</li>
+            </ul>
+          </div>
+          <img class="system-shot" src="assets/exercise.jpg" alt="AHP exercise recommendation screen">
+        </article>
+
+        <article class="module-card reverse">
+          <div class="module-copy">
+            <span class="module-number">06</span>
+            <h3>Food Detection History</h3>
+            <p>
+              Detection results are stored with the date, time, detected food items and
+              calorie information. Users can filter records and review previous intake.
+            </p>
+            <ul>
+              <li>Date-based record filtering</li>
+              <li>Detected-food summaries</li>
+              <li>Calorie-history display</li>
+              <li>Visual data presentation</li>
+            </ul>
+          </div>
+          <img class="system-shot" src="assets/history.jpg" alt="Food detection history screen">
+        </article>
+      </div>
+
+      <div class="tech-section">
+        <div class="section-heading centered">
+          <p class="eyebrow">TOOLS USED</p>
+          <h2>Technology Stack</h2>
+        </div>
+        <div class="tech-grid">
+          <article><strong>Python</strong><span>Core programming language</span></article>
+          <article><strong>Flask</strong><span>Web application framework</span></article>
+          <article><strong>YOLOv8</strong><span>Food-object detection model</span></article>
+          <article><strong>OpenCV</strong><span>Image and camera processing</span></article>
+          <article><strong>SQLite</strong><span>User and history database</span></article>
+          <article><strong>AHP</strong><span>Exercise decision methodology</span></article>
+          <article><strong>Pandas</strong><span>Data manipulation</span></article>
+          <article><strong>Matplotlib</strong><span>Data visualisation</span></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVIDENCE -->
+    <section class="section" id="evidence">
+      <div class="section-heading centered">
+        <p class="eyebrow">PROJECT EVIDENCE</p>
+        <h2>Results and Demonstration</h2>
+      </div>
+
+      <div class="evidence-grid">
+        <article class="document-card">
+          <div class="document-icon">PDF</div>
+          <h3>Final Report</h3>
+          <p>Complete FYP report documenting research, methodology and system evaluation.</p>
+          <a href="assets/final-report.pdf" target="_blank" rel="noopener">View document</a>
+        </article>
+        <article class="document-card">
+          <div class="document-icon">IMG</div>
+          <h3>FYP Poster</h3>
+          <p>Academic poster summarising the project objectives, methods and results.</p>
+          <a href="assets/fyp-poster.pdf" target="_blank" rel="noopener" download>Download poster</a>
+        </article>
+      </div>
+
+      <div class="gallery">
+        <img class="gallery-item" src="assets/detection.jpg" alt="YOLO food detection result">
+        <img class="gallery-item" src="assets/exercise.jpg" alt="AHP exercise recommendation result">
+        <img class="gallery-item" src="assets/bmi-tdee.jpg" alt="BMI BMR TDEE health metrics">
+      </div>
+    </section>
+
+    <!-- RECOMMENDATIONS -->
+    <section class="section recommendations-section" id="recommendations">
+      <div class="section-heading centered">
+        <p class="eyebrow">FUTURE WORK</p>
+        <h2>Recommendations for Future Enhancement</h2>
+        <p>
+          Several improvements can be considered to enhance the capability of the
+          proposed system in future studies.
+        </p>
+      </div>
+
+      <div class="recommendations-intro content-card">
+        <p>
+          While the current system successfully integrates health calculations, food
+          recognition and exercise ranking, further development could significantly
+          improve accuracy, scalability and real-world applicability. The recommendations
+          below outline practical directions for extending this research.
+        </p>
+      </div>
+
+      <div class="recommendations-grid">
+        <article class="recommendation-card">
+          <span class="rec-icon">01</span>
+          <h3>Expanded Food Dataset</h3>
+          <p>
+            The food recognition model can be improved by expanding the training dataset
+            to include a greater variety of local and international food items. A larger
+            dataset would improve detection accuracy and increase the applicability of the
+            system to more diverse dietary habits.
+          </p>
+        </article>
+        <article class="recommendation-card">
+          <span class="rec-icon">02</span>
+          <h3>Wearable Device Integration</h3>
+          <p>
+            Future studies may integrate wearable devices such as smartwatches or fitness
+            trackers to automatically collect physiological data, including heart rate,
+            step count, calories burned and sleep quality. Such integration would enable
+            the system to generate more dynamic and personalised recommendations based on
+            real-time user activity.
+          </p>
+        </article>
+        <article class="recommendation-card">
+          <span class="rec-icon">03</span>
+          <h3>Adaptive Exercise Learning</h3>
+          <p>
+            The exercise recommendation module may be enhanced by incorporating machine
+            learning techniques that continuously learn from users' exercise history and
+            preferences. Rather than relying solely on predefined AHP scores, future
+            systems could adapt recommendations according to user behaviour and exercise
+            performance over time.
+          </p>
+        </article>
+        <article class="recommendation-card">
+          <span class="rec-icon">04</span>
+          <h3>Cloud & Mobile Deployment</h3>
+          <p>
+            Cloud-based database management systems such as MySQL or PostgreSQL may be
+            adopted to support multiple users simultaneously and improve scalability.
+            Developing dedicated Android and iOS mobile applications would also improve
+            accessibility and allow users to monitor their fitness more conveniently.
+          </p>
+        </article>
+        <article class="recommendation-card wide">
+          <span class="rec-icon">05</span>
+          <h3>Comprehensive Health Indicators</h3>
+          <p>
+            Future research may incorporate additional health indicators such as body fat
+            percentage, blood pressure, medical history, or wearable sensor data to provide
+            more comprehensive health recommendations. Combining these inputs with existing
+            BMI, TDEE and activity data would create a richer and more clinically informed
+            decision-support framework.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONCLUSION -->
+    <section class="section conclusion-section" id="conclusion">
+      <div class="section-heading centered">
+        <p class="eyebrow">ACHIEVEMENT & CONCLUSION</p>
+        <h2>From an Idea to a Functional System</h2>
+      </div>
+
+      <div class="achievement-grid">
+        <article>
+          <strong>01</strong>
+          <h3>Integrated System</h3>
+          <p>Successfully combined multiple health, AI, database and decision-support modules.</p>
+        </article>
+        <article>
+          <strong>02</strong>
+          <h3>Custom AI Model</h3>
+          <p>Trained and integrated a YOLOv8 model for food recognition.</p>
+        </article>
+        <article>
+          <strong>03</strong>
+          <h3>Decision Science Application</h3>
+          <p>Applied AHP to provide systematic and explainable exercise rankings.</p>
+        </article>
+        <article>
+          <strong>04</strong>
+          <h3>Personal Growth</h3>
+          <p>Improved research, coding, troubleshooting, communication and project-management skills.</p>
+        </article>
+      </div>
+
+      <div class="conclusion-copy">
+        <h3>Conclusion</h3>
+        <p>
+          The Smart Fitness Recommendation System demonstrates how artificial
+          intelligence and Decision Science can be integrated to support personal
+          health management. The completed application calculates important health
+          indicators, recognises food, estimates calorie intake, records user history
+          and recommends exercises using a structured decision method.
+        </p>
+        <p>
+          Although further improvements can be made — as outlined in the recommendations
+          section — the current system achieves the main project objectives and provides a
+          strong foundation for future development in personalised health technology.
+        </p>
+      </div>
+
+      <div class="final-message">
+        <p>Thank you for visiting my Final Year Project showcase (Academic Journey).</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </section>
+
+      </main>
+<footer>
+    <div class="footer-content">
+      <div class="footer-intro">
+        <strong>Tan Qian Han</strong>
+        <p>Industrial Training E-Portfolio · SQQXK4966</p>
+      </div>
+      <div class="footer-contact">
+        <strong>Get in touch</strong>
+        <p>Phone: <a href="tel:+60169417448">+6016 9417448</a></p>
+        <p>Email: <a href="mailto:qianhant@gmail.com">qianhant@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/qian-han-tan-727122271" target="_blank" rel="noopener noreferrer">linkedin.com/in/qian-han-tan-727122271</a></p>
+        <p>Universiti Utara Malaysia</p>
+      </div>
+    </div>
+  </footer>
+    </div>
+  </div>
+  <script src="layout.js"></script>
+
+  <script src="page.js"></script>
+</body>
+</html>
