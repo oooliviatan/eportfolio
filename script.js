@@ -280,12 +280,15 @@ const createReportCard = (report, dayNumber) => {
   `;
 
   const details = item.querySelector("details");
-  item.addEventListener("mouseenter", () => {
-    details.open = true;
-  });
-  item.addEventListener("mouseleave", () => {
-    details.open = false;
-  });
+  const canHover = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+  if (canHover) {
+    item.addEventListener("mouseenter", () => {
+      details.open = true;
+    });
+    item.addEventListener("mouseleave", () => {
+      details.open = false;
+    });
+  }
 
   return item;
 };
@@ -378,6 +381,12 @@ const scheduleAutoSave = () => {
   }, AUTO_SAVE_MS);
 };
 
+const loadReportFile = async () => {
+  const response = await fetch("data/daily-reports.json", { cache: "no-store" });
+  if (!response.ok) throw new Error("Report file unavailable");
+  return response.json();
+};
+
 const loadInternshipData = async ({ force = false } = {}) => {
   try {
     const response = await fetch(API_URL, { cache: "no-store" });
@@ -398,12 +407,15 @@ const loadInternshipData = async ({ force = false } = {}) => {
     return true;
   } catch {
     serverConnected = false;
-    const cached = loadFromLocalStorage();
-    if (cached) applyState(cached, { fromRemote: true });
-    showSaveHint(
-      "Run python3 server.py, then open http://127.0.0.1:8765/ for live sync with data/daily-reports.json."
-    );
-    return false;
+    try {
+      const data = await loadReportFile();
+      applyState(data, { fromRemote: true });
+      return true;
+    } catch {
+      const cached = loadFromLocalStorage();
+      if (cached) applyState(cached, { fromRemote: true });
+      return false;
+    }
   }
 };
 
